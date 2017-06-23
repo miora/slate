@@ -14,7 +14,7 @@ search: true
 
 Welcome to Miora API docs.
 
-# Authentication
+# Authentication 
 
 > To authenticate, use this code:
 
