@@ -3,6 +3,7 @@ title: MIORA API docs
 
 includes:
   - users
+  - bookings
   - errors
   - countries
   - cities

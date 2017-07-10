@@ -2,7 +2,7 @@
 
 # Users
 
-## <span class="put">POST</span> User signup
+## <span class="post">POST</span> User signup
 
 ```shell
 curl "https://api.miora.io/user/v2/add" \
@@ -195,7 +195,7 @@ changes | [] (Empty array: no changes detected) or 'device_token'
 ## <span class="put">PUT</span> Update user data
 
 ```shell
-curl "https://api.miora.io/user/update" \
+curl "https://api.miora.io/user" \
 -X PUT \
 -H "Authorization: Bearer meowmeowmeow" \
 -d names="<NAMES>"
@@ -206,7 +206,7 @@ Updates auth user's data
 
 ### HTTP Request
 
-`PUT https://api.miora.io/user/update`
+`PUT https://api.miora.io/user`
 
 ### Parameters
 
