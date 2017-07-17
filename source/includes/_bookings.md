@@ -60,23 +60,24 @@ Cart "data" format:
 }
 ```
 
-Gateway possible values are:
+Gateway possible values | Explanation
+--------- | -----------
+offline |Venue payment
+braintree | Braintree gateway (not in use anymore)
+payu | PayU Gateway (Chile, Colombia, México)
+stripe | Stripe Gateway (Puerto Rico)
+sabadell | Sabadell gateway (Spain)
+transbank | Transbank gateway (Chile. Not activated)
+paypal | Paypal gateway (México-Not activated. Spain)
 
-offline
-braintree
-payu
-stripe
-sabadell
-transbank
-paypal
 
-Gateway_provider possible values are:
-
-payu (Payu's web gateway)
-credit-card
-credit-card-token
-venue
-paypal
+Gateway_provider possible values | Explanation
+--------- | -----------
+payu | Payu's web checkout
+credit-card | Credit card sent in form
+credit-card-token | Previously stored credit card
+venue | Venue payment
+paypal | Paypal
 
 If Wallet is set to "true", it will use the money inside user's current wallet. 
 
